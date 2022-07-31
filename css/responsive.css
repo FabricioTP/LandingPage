@@ -1,0 +1,65 @@
+@media (min-width:375px) and (min-height:700px)  {
+    html{
+        font-size: 14px;
+    }
+    header{
+        height: 13vh;
+    }
+    button{
+        height: 10vh;
+    }
+    #fourthSection div{
+        width: 95%;
+        transform: translateX(-5%);
+        height: 70vh;
+    }
+    #fourthSection div img{
+        width: 90%;
+        height: 90%;
+    }
+    .faqBloc:hover{
+        height: 30vh;
+    }
+    #buyBloc:hover{
+        height: 37vh;
+    }
+}
+@media (min-width:760px) and (min-height:850px){
+    html{
+        font-size: 18px;
+    }
+    header{
+        height: 14vh;
+    }
+    #apresentaoImg{
+        height: 55vh;
+    }
+    button{
+        height: 15vh;
+    }
+    .faqBloc:hover{
+        height: 30vh;
+    }
+    #buyBloc:hover{
+        height: 45vh;
+    }
+}
+@media (min-width:1100px) and (min-height:900px){
+    html{
+        font-size: 20px;
+    }
+    button{
+        height: 9vh;
+    }
+    #fourthSection div{
+        width: 50vw;
+        transform: translateX(30%);
+        height: 60vh;
+    }
+    .faqBloc:hover{
+        height: 25vh;
+    }
+    #buyBloc:hover{
+        height: 40vh;
+    }
+}
